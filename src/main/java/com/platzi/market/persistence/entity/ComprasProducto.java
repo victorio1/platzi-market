@@ -3,7 +3,7 @@ package com.platzi.market.persistence.entity;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "compras_producto")
+@Table(name = "compras_productos")
 public class ComprasProducto {
 
     @EmbeddedId
@@ -69,4 +69,6 @@ public class ComprasProducto {
     public void setProducto(Producto producto) {
         this.producto = producto;
     }
+
+
 }
